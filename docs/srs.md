@@ -12,7 +12,7 @@ should be monitored because the management wants to check daily reports about th
 
 ## Problems of current situation
 
-- Many people have to stand beside the slide and supervise it.
+-Many people have to stand beside the slide and supervise it.
 -Time consuming
 -Can't be monitored
 
@@ -33,3 +33,11 @@ At the end of the day each guest get a detailed reciept, where they find which s
 
 -Get a massage when somebody enters or leaves
 -Get a detailed statistic
+
+# Use Case
+
+## Use Case Details
+
+-The customer recieves a unique ID when entering the aquapark, the ID is given out by the aquapark system
+-The customer can use slides which includes being charged for that slide by the aquapark system
+-The costumer gives back their unique ID to the aquapark system when leaving the facility, this includes the reception and payment of a detailed reciept containing the information about which slides the customer used
