@@ -31,7 +31,7 @@ At the end of the day each guest get a detailed reciept, where they find which s
 
 ## Admin interface
 
--Get a massage when somebody enters or leaves
+-Get a message when somebody enters or leaves
 -Get a detailed statistic
 
 # Use Case
