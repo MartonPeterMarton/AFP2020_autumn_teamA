@@ -21,8 +21,7 @@ public class IdServiceImpl implements IdService {
         final boolean isAlreadyRecorded = dao.readAll()
                 .stream()
                 .anyMatch( cn ->
-                                cn.getId() == id.getId();
-                         )
+                                cn.getId() == id.getId());
         if(isAlreadyRecorded){
             log.info("Id {} already recorded!", id);
             throw new IdAlreadyExistsException(String.format("Id (%s) already exists!", id.toString()));
