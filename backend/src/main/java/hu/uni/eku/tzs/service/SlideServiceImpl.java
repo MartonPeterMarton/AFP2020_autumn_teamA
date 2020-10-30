@@ -22,6 +22,7 @@ public class SlideServiceImpl implements SlideService {
                 .stream()
                 .anyMatch( cn ->
                                 cn.getSlide() == slide.getSlide();
+                         )
         if(isAlreadyRecorded){
             log.info("Slide {} already recorded!", slide);
             throw new SlideAlreadyExistsException(String.format("Slide (%s) already exists!", slide.toString()));
