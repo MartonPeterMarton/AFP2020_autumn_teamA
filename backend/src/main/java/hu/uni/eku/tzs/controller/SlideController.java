@@ -1,10 +1,10 @@
 package hu.uni.eku.tzs.controller;
 
-import hu.uni.eku.tzs.controller.dto.ComplexNumberDto;
-import hu.uni.eku.tzs.controller.dto.ComplexNumberRecordRequestDto;
-import hu.uni.eku.tzs.model.ComplexNumber;
-import hu.uni.eku.tzs.service.ComplexNumberService;
-import hu.uni.eku.tzs.service.exceptions.ComplexNumberAlreadyExistsException;
+import hu.uni.eku.tzs.controller.dto.SlideDto;
+import hu.uni.eku.tzs.controller.dto.SlideRecordRequestDto;
+import hu.uni.eku.tzs.model.Slide;
+import hu.uni.eku.tzs.service.SlideService;
+import hu.uni.eku.tzs.service.exceptions.SlideAlreadyExistsException;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
