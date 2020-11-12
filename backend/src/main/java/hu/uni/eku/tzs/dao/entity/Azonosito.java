@@ -11,14 +11,11 @@ import javax.persistence.*;
 @NoArgsConstructor
 @Getter
 @Setter
-public class Id {
+public class Azonosito {
 
-<<<<<<< Updated upstream
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
-=======
->>>>>>> Stashed changes
     @Column
-    private int id;
+    private int azonosito;
 }

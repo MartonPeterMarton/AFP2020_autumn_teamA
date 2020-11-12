@@ -5,8 +5,8 @@ import lombok.Data;
 
 @Data
 @Builder
-public class IdDto {
+public class AzonositoDto {
 
-    private int id;
+    private int azonosito;
 
 }

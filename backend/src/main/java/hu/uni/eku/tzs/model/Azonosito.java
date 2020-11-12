@@ -7,8 +7,8 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Id {
+public class Azonosito {
 
-    private int id;
+    private int azonosito;
 
 }
