@@ -21,7 +21,7 @@ public class AzonositoServiceImpl implements AzonositoService {
         final boolean isAlreadyRecorded = dao.readAll()
                 .stream()
                 .anyMatch( cn ->
-                                cn.getAzonosito() == azonosito.getAzonosito();
+                                cn.getAzonosito() == azonosito.getAzonosito());
         if(isAlreadyRecorded){
             log.info("Azonosito {} already recorded!", azonosito);
             throw new AzonositoAlreadyExistsException(String.format("Azonosito (%s) already exists!", azonosito.toString()));
