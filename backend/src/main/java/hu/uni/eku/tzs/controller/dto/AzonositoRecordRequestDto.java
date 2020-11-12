@@ -9,8 +9,8 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class IdRecordRequestDto {
+public class AzonositoRecordRequestDto {
 
-    private int id;
+    private int azonosito;
 
 }

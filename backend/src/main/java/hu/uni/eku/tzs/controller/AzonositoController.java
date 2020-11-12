@@ -1,10 +1,10 @@
 package hu.uni.eku.tzs.controller;
 
-import hu.uni.eku.tzs.controller.dto.IdDto;
-import hu.uni.eku.tzs.controller.dto.IdRecordRequestDto;
-import hu.uni.eku.tzs.model.Id;
-import hu.uni.eku.tzs.service.IdService;
-import hu.uni.eku.tzs.service.exceptions.IdAlreadyExistsException;
+import hu.uni.eku.tzs.controller.dto.AzonositoDto;
+import hu.uni.eku.tzs.controller.dto.AzonositoRecordRequestDto;
+import hu.uni.eku.tzs.model.Azonosito;
+import hu.uni.eku.tzs.service.AzonositoService;
+import hu.uni.eku.tzs.service.exceptions.AzonositoAlreadyExistsException;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
@@ -19,25 +19,25 @@ import java.util.Collection;
 import java.util.stream.Collectors;
 
 @RestController
-@RequestMapping(value = "/id")
+@RequestMapping(value = "/azonosito")
 @RequiredArgsConstructor
-@Api(tags = "ID")
+@Api(tags = "AZONISITO")
 @Slf4j
-public class IdController {
+public class AzonositoController {
 
-    private final IdService service;
+    private final AzonositoService service;
 
     @PostMapping("/record")
     @ApiOperation(value = "Record")
     public void record(
             @RequestBody
-            IdRecordRequestDto request
+                    AzonositoRecordRequestDto request
     ){
-        log.info("Recording of ID {}",request.getId());
+        log.info("Recording of Azonosito {}",request.getAzonosito());
         try {
-            service.record(new Id(request.getId()));
-        } catch (IdAlreadyExistsException e) {
-            log.info("ID {} already exists! Message: {}", request.getId(), e.getMessage());
+            service.record(new Azonosito(request.getAzonosito()));
+        } catch (AzonositoAlreadyExistsException e) {
+            log.info("Azonosito {} already exists! Message: {}", request.getAzonosito(), e.getMessage());
             throw new ResponseStatusException(
                     HttpStatus.CONFLICT,
                     e.getMessage()
@@ -47,11 +47,11 @@ public class IdController {
 
     @GetMapping(value = {"/"}, produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
-    @ApiOperation(value= "Query ID")
-    public Collection<IdDto> query(){
+    @ApiOperation(value= "Query Azonosito")
+    public Collection<AzonositoDto> query(){
         return service.readAll().stream().map(model ->
-                IdDto.builder()
-                .id(model.getId())
+                AzonositoDto.builder()
+                .azonosito(model.getAzonosito())
                 .build()
         ).collect(Collectors.toList());
     }
