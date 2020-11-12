@@ -1,6 +1,6 @@
 package hu.uni.eku.tzs.dao;
 
-import hu.uni.eku.tzs.model.Id;
+import hu.uni.eku.tzs.model.Slide;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
