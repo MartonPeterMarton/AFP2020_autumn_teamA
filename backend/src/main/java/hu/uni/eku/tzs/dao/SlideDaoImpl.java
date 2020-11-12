@@ -12,7 +12,7 @@ import java.util.stream.StreamSupport;
 
 @RequiredArgsConstructor
 @Service
-public class SlideImpl implements SlideDao {
+public class SlideDaoImpl implements SlideDao {
 
     private final SlideRepository repository;
 
