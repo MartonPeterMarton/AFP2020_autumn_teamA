@@ -12,7 +12,7 @@ import java.util.stream.StreamSupport;
 
 @RequiredArgsConstructor
 @Service
-public class AzonositoImpl implements AzonositoDao {
+public class AzonositoDaoImpl implements AzonositoDao {
 
     private final AzonositoRepository repository;
 
