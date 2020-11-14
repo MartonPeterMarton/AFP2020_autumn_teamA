@@ -1,0 +1,104 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"7a428bb8-4520-4da2-a5bb-3fd3083e2e0b\" name=\"Default Changelist\" comment=\"\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1jhY3ze2MBnpZMDc4WNDC9Rf9o1\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"Git.Branch.Popup.ShowAllRemotes\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"dart.analysis.tool.window.visible\" value=\"false\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\r\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"7a428bb8-4520-4da2-a5bb-3fd3083e2e0b\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1604257599493</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1604257599493</updated>\r\n      <workItem from=\"1604257603029\" duration=\"103000\" />\r\n      <workItem from=\"1604308335367\" duration=\"160000\" />\r\n      <workItem from=\"1604315980047\" duration=\"983000\" />\r\n      <workItem from=\"1604760467164\" duration=\"63000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"WindowStateProjectService\">\r\n    <state x=\"137\" y=\"23\" width=\"1092\" height=\"715\" key=\"#com.intellij.execution.impl.EditConfigurationsDialog\" timestamp=\"1604316021183\">\r\n      <screen x=\"0\" y=\"0\" width=\"1366\" height=\"738\" />\r\n    </state>\r\n    <state x=\"137\" y=\"23\" width=\"1092\" height=\"715\" key=\"#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738\" timestamp=\"1604316021183\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 93298a26947c827c75f5ea39d126d04661d05d66)
++++ .idea/workspace.xml	(date 1605210457898)
+@@ -1,7 +1,27 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="BranchesTreeState">
++    <expand>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++    </expand>
++    <select />
++  </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="7a428bb8-4520-4da2-a5bb-3fd3083e2e0b" name="Default Changelist" comment="" />
++    <list default="true" id="7a428bb8-4520-4da2-a5bb-3fd3083e2e0b" name="Default Changelist" comment="">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -24,6 +44,27 @@
+     <property name="nodejs_package_manager_path" value="npm" />
+     <property name="vue.rearranger.settings.migration" value="true" />
+   </component>
++  <component name="RunManager">
++    <configuration name="backend/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
++      <deployment type="dockerfile">
++        <settings>
++          <option name="imageTag" value="" />
++          <option name="buildCliOptions" value="" />
++          <option name="command" value="" />
++          <option name="containerName" value="" />
++          <option name="entrypoint" value="" />
++          <option name="commandLineOptions" value="" />
++          <option name="sourceFilePath" value="backend/Dockerfile" />
++        </settings>
++      </deployment>
++      <method v="2" />
++    </configuration>
++    <recent_temporary>
++      <list>
++        <item itemvalue="Docker.backend/Dockerfile" />
++      </list>
++    </recent_temporary>
++  </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+@@ -36,16 +77,34 @@
+       <workItem from="1604308335367" duration="160000" />
+       <workItem from="1604315980047" duration="983000" />
+       <workItem from="1604760467164" duration="63000" />
++      <workItem from="1605210033470" duration="95000" />
++      <workItem from="1605210144028" duration="311000" />
+     </task>
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+     <option name="version" value="3" />
+   </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
++    <option name="oldMeFiltersMigrated" value="true" />
++  </component>
+   <component name="WindowStateProjectService">
+-    <state x="137" y="23" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604316021183">
++    <state x="137" y="0" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605210107686">
+       <screen x="0" y="0" width="1366" height="738" />
+     </state>
+-    <state x="137" y="23" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1604316021183" />
++    <state x="137" y="0" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1605210107686" />
++    <state x="500" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605210067132">
++      <screen x="0" y="0" width="1366" height="738" />
++    </state>
++    <state x="500" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1605210067132" />
+   </component>
+ </project>
+\ No newline at end of file
