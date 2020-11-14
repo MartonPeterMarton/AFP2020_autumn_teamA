@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a428bb8-4520-4da2-a5bb-3fd3083e2e0b" name="Default Changelist" comment="" />
+    <list default="true" id="7a428bb8-4520-4da2-a5bb-3fd3083e2e0b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/docker-compose.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,8 +22,9 @@
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -36,6 +40,9 @@
       <workItem from="1604308335367" duration="160000" />
       <workItem from="1604315980047" duration="983000" />
       <workItem from="1604760467164" duration="63000" />
+      <workItem from="1605009205195" duration="209000" />
+      <workItem from="1605021855307" duration="753000" />
+      <workItem from="1605084402391" duration="34000" />
     </task>
     <servers />
   </component>
@@ -43,9 +50,15 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="137" y="23" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604316021183">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="193" y="32" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605009267234">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="137" y="23" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1604316021183" />
+    <state x="193" y="32" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605009267234" />
+    <state x="632" y="147" key="FileChooserDialogImpl" timestamp="1605084435081">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2341" y="96" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1280.680@1920.0.1280.680" timestamp="1605021984619" />
+    <state x="632" y="147" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605084435081" />
   </component>
 </project>
