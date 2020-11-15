@@ -9,9 +9,9 @@ ReactDOM.render(
       <header>
           <h1>AFP2020<span>_autumn_teamA</span></h1>
       </header>
-      <nav>
+      <main>
         <App />
-      </nav>
+      </main>
         <footer>
             <h4>
                 &copy; Copyright team A <br/>
