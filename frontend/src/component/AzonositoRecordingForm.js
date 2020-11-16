@@ -20,10 +20,10 @@ class AzonositoRecordingForm extends React.Component{
         return(
             <div>
                 <ErrorMessageWell/>
-                <label htmlFor={"azonosito"} >Azonosito</label>
+                <label htmlFor={"azonosito"} >Identifier</label>
                 <input type={"number"} id={"azonosito"} name={"azonosito"} value={this.state.azonosito} onChange={this.formOnChange}/>
                 <br/>
-                <button onClick={()=> actions.recordAzonosito(this.state)}>Submit</button>
+                <button onClick={()=> actions.recordAzonosito(this.state)}>Get Identifier</button>
             </div>
         );
     }
