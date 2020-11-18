@@ -4,13 +4,14 @@ import AzonositoRecordingForm from "./component/AzonositoRecordingForm";
 import AzonositoList from "./component/AzonositoList";
 import SlideRecordingForm from "./component/SlideRecordingForm";
 import SlideList from "./component/SlideList";
+import Header from "./component/header/header"
+import "./component/main/main.css"
+import Footer from "./component/footer/footer"
 
 function App() {
   return (
     <div className={["App","container"]}>
-        <header>
-            <h1>AFP2020<span>_autumn_teamA</span></h1>
-        </header>
+        <Header/>
         <main>
             <div className={"row"}>
                 <div className={"col-md-3"}></div>
@@ -24,12 +25,7 @@ function App() {
                 <div className={"col-md-3"}></div>
             </div>
         </main>
-        <footer>
-            <h4>
-                &copy; Copyright team A <br/>
-                Team: Marton Péter Márton, Dévai Levente, Bárány Gergő, Mészáros Martin
-            </h4>
-        </footer>
+        <Footer/>
     </div>
   );
 }
